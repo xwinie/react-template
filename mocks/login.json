@@ -1,0 +1,16 @@
+{
+  "request": {
+    "url": "^/login$",
+    "method": [
+      "POST"
+    ]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "latency": 1000,
+    "body": "access_token:11111111"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "request" : {
+    "url": "^/my-server/services/getTestData$",
+    "method": ["GET", "POST"]
+  },
+  "response":{
+    "status" : 200,
+    "headers" :{
+      "Content-Type" : "application/json"
+    },
+    "latency" : 1000,
+    "body" : "Some Test Data"
+  }
+}
